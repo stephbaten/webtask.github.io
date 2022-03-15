@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <title>Website</title>
+    <style>
+        body {
+            font-family: 'Baloo 2', cursive;
+            color: wheat;
+            margin: 0px;
+            padding: 0px;
+            background: url("https://storage.needpix.com/rsynced_images/web-design-2906159_1280.jpg");
+            cursor: pointer;
+        }
+        .left {
+            font-family: 'Baloo 2', cursive;
+            padding: 34px;
+            display: inline-block;
+        }
+
+        .left img {
+            width: 111px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: inline-block;
+            width: 33%;
+            margin: 110px;
+            padding: 0px;
+        }
+
+        .right {
+            position: absolute;
+            right: 0px;
+            position: fixed;
+            top: auto;
+        }
+        .bar {
+            display: inline-block;
+        }
+
+        .bar li {
+            display: inline-block;
+        }
+
+        .bar li a {
+            color: white;
+            text-decoration: none;
+            padding: 0px 20px;
+        }
+
+        .btn {
+            font-family: 'Baloo 2', cursive;
+            background-color: rgb(7, 7, 7);
+            color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        a {
+            color: white;
+        }
+        .container{
+            margin: auto;
+            padding: 34px 240px;
+            display: inline-block;
+            /* border: 2px solid red; */
+            border-radius: 20px;
+            text-align: center;
+        }
+        .form-data{
+            font-size: 25px;
+            border-radius: 5px;
+        }
+        #btn{
+            width: 320px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Steemit_New_Logo.png" alt="">
+                <div><a href="https://www.facebook.com/profile.php?id=100022591419342">GUJJAR 22</a></div>
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="bar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact US</a></li>
+                <li><a href="">Details</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Message Us</button>
+        </div>
+    </header>
+    <dv class="container">
+        <h1>Muhammad Adrees GUJJAR</h1>
+        <div>
+
+            <input type="text" placeholder="Enter Your Name" class="form-data">
+            <br>
+            <input type="password" placeholder="Enter your password" class="form-data">
+            <br>
+            <input type="email" placeholder="Enter Your E-mail" class="form-data">
+            <br>
+            <input type="text" placeholder="Enter Your Phone No" class="form-data">
+            <br>
+            <button class="btn" id="btn">
+                Submit
+            </button>
+        </div>
+    </dv>
+</body>
+
+</html>
